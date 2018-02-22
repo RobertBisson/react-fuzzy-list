@@ -1,0 +1,35 @@
+{
+    "name": "react-fuzzy-list",
+    "version": "1.0.0",
+    "description":
+        "A list component that supports fuzzy searching through fuse.js and virutualization.",
+    "main": "lib/index",
+    "scripts": {
+        "build": "tsc"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://RobertBisson@github.com/RobertBisson/react-fuzzy-list.git"
+    },
+    "keywords": ["react"],
+    "author": "Rob Bisson",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/RobertBisson/react-fuzzy-list/issues"
+    },
+    "homepage": "https://github.com/RobertBisson/react-fuzzy-list#readme",
+    "dependencies": {
+        "fuse.js": "^3.2.0",
+        "lodash.filter": "^4.6.0",
+        "react": "^16.2.0",
+        "react-dom": "^16.2.0",
+        "react-virtualized": "^9.18.5",
+        "typescript": "^2.7.2"
+    },
+    "devDependencies": {
+        "@types/node": "^9.4.6",
+        "@types/lodash.filter": "^4.6.3",
+        "@types/react": "^16.0.38",
+        "@types/react-virtualized": "^9.7.12"
+    }
+}
